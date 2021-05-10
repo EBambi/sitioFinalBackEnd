@@ -32,3 +32,7 @@ Route::get('/gallery', function(){
 Route::get('/gallery2', function(){
     return view('gallery2';)
 });
+
+Route::get('/gallery3', function(){
+    return view('gallery3';)
+});
