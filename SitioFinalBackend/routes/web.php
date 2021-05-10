@@ -36,3 +36,7 @@ Route::get('/gallery2', function(){
 Route::get('/gallery3', function(){
     return view('gallery3';)
 });
+
+Route::get('/login', function(){
+    return view('login';)
+});
