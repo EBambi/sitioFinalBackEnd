@@ -40,3 +40,7 @@ Route::get('/gallery3', function(){
 Route::get('/login', function(){
     return view('login';)
 });
+
+Route::get('/services', function(){
+    return view('services';)
+});
