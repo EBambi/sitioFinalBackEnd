@@ -6,11 +6,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 @font-face {
     font-family: 'FugazOne-Regular';
-    src:url(../fonts/FugazOne-Regular.ttf) format('truetype');
+    src:url(/../fonts/FugazOne-Regular.ttf) format('truetype');
 }
 @font-face {
     font-family: 'OpenSans-Regular';
-    src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+    src:url(/../fonts/OpenSans-Regular.ttf) format('truetype');
 }
 
 #boton_wpp{

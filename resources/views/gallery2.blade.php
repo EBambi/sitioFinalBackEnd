@@ -8,8 +8,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>UNIVERSART</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Zoo Planet Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -19,7 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <script src="js/navegacion.js"></script>
 <!--lightbox-->
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox.css">
 <script src="js/jquery.lightbox.js"></script>
 <script>
   // Initiate Lightbox
@@ -86,35 +86,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="gallery-grids">
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-						<a class="mask" href="images/pinturaAngelCaido.jpg"><img src="images/pinturaAngelCaido.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/pinturaAngelCaido.jpg"><img src="/images/pinturaAngelCaido.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 					</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-						<a class="mask" href="images/pinturaBarco.jpg"><img src="images/pinturaBarco.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/pinturaBarco.jpg"><img src="/images/pinturaBarco.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 					</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-						<a class="mask" href="images/pinturaBarroco.jpg"><img src="images/pinturaBarroco.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
-					</div>	
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="gallery-grids">
-				<div class="col-md-4 gallery-grid">
-					<div class="gallery">
-						<a class="mask" href="images/pinturaGrecia.jpg"><img src="images/pinturaGrecia.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
-					</div>	
-				</div>
-				<div class="col-md-4 gallery-grid">
-					<div class="gallery">
-						<a class="mask" href="images/pinturaOdin.jpg"><img src="images/pinturaOdin.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
-					</div>	
-				</div>
-				<div class="col-md-4 gallery-grid">
-					<div class="gallery">
-						<a class="mask" href="images/pinturaOrgia.jpg"><img src="images/pinturaOrgia.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/pinturaBarroco.jpg"><img src="/images/pinturaBarroco.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 					</div>	
 				</div>
 				<div class="clearfix"> </div>
@@ -122,17 +104,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="gallery-grids">
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-							<a class="mask" href="images/pinturaPimienta.jpg"><img src="images/pinturaPimienta.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/pinturaGrecia.jpg"><img src="/images/pinturaGrecia.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+					</div>	
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="gallery">
+						<a class="mask" href="/images/pinturaOdin.jpg"><img src="/images/pinturaOdin.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+					</div>	
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="gallery">
+						<a class="mask" href="/images/pinturaOrgia.jpg"><img src="/images/pinturaOrgia.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+					</div>	
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="gallery-grids">
+				<div class="col-md-4 gallery-grid">
+					<div class="gallery">
+							<a class="mask" href="/images/pinturaPimienta.jpg"><img src="/images/pinturaPimienta.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 						</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-							<a class="mask" href="images/pinturaRomanos.jpg"><img src="images/pinturaRomanos.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+							<a class="mask" href="/images/pinturaRomanos.jpg"><img src="/images/pinturaRomanos.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 						</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-							<a class="mask" href="images/pinturaSirenas.jpg"><img src="images/pinturaSirenas.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+							<a class="mask" href="/images/pinturaSirenas.jpg"><img src="/images/pinturaSirenas.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 						</div>	
 				</div>
 				<div class="clearfix"> </div>

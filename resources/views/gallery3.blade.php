@@ -8,8 +8,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>UNIVERSART</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Zoo Planet Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -19,7 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <script src="js/navegacion.js"></script>
 <!--lightbox-->
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.lightbox.css">
 <script src="js/jquery.lightbox.js"></script>
 <script>
   // Initiate Lightbox
@@ -86,35 +86,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="gallery-grids">
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-						<a class="mask" href="images/esculturaCupido.jpg"><img src="images/esculturaCupido.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/esculturaCupido.jpg"><img src="/images/esculturaCupido.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 					</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-						<a class="mask" href="images/esculturaDante.jpg"><img src="images/esculturaDante.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/esculturaDante.jpg"><img src="/images/esculturaDante.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 					</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-						<a class="mask" href="images/esculturaFrancia.jpg"><img src="images/esculturaFrancia.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
-					</div>	
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="gallery-grids">
-				<div class="col-md-4 gallery-grid">
-					<div class="gallery">
-						<a class="mask" href="images/esculturaFuente.jpg"><img src="images/esculturaFuente.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
-					</div>	
-				</div>
-				<div class="col-md-4 gallery-grid">
-					<div class="gallery">
-						<a class="mask" href="images/esculturaHercules.jpg"><img src="images/esculturaHercules.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
-					</div>	
-				</div>
-				<div class="col-md-4 gallery-grid">
-					<div class="gallery">
-						<a class="mask" href="images/esculturaMedusa.jpg"><img src="images/esculturaMedusa.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/esculturaFrancia.jpg"><img src="/images/esculturaFrancia.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 					</div>	
 				</div>
 				<div class="clearfix"> </div>
@@ -122,17 +104,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="gallery-grids">
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-							<a class="mask" href="images/esculturaMichelAngelo.jpg"><img src="images/esculturaMichelAngelo.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+						<a class="mask" href="/images/esculturaFuente.jpg"><img src="/images/esculturaFuente.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+					</div>	
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="gallery">
+						<a class="mask" href="/images/esculturaHercules.jpg"><img src="/images/esculturaHercules.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+					</div>	
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="gallery">
+						<a class="mask" href="/images/esculturaMedusa.jpg"><img src="/images/esculturaMedusa.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+					</div>	
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="gallery-grids">
+				<div class="col-md-4 gallery-grid">
+					<div class="gallery">
+							<a class="mask" href="/images/esculturaMichelAngelo.jpg"><img src="/images/esculturaMichelAngelo.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 						</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-							<a class="mask" href="images/esculturaMujer.jpg"><img src="images/esculturaMujer.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+							<a class="mask" href="/images/esculturaMujer.jpg"><img src="/images/esculturaMujer.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 						</div>	
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="gallery">
-							<a class="mask" href="images/esculturaZeus.jpg"><img src="images/esculturaZeus.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
+							<a class="mask" href="/images/esculturaZeus.jpg"><img src="/images/esculturaZeus.jpg" class="img-responsive zoom-img" alt="/" title="image-name"></a>
 						</div>	
 				</div>
 				<div class="clearfix"> </div>

@@ -8,8 +8,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>UNIVERSART</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Zoo Planet Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -75,28 +75,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="services-grids">
 					<div class="col-md-3 services-grid">
-						<img src="images/artista1.jpg" class="img-responsive" alt="" />
+						<img src="/images/artista1.jpg" class="img-responsive" alt="" />
 						<div class="services-info">
 						<h4>Vincent Van Gogh</h4>
 						<p>1853-1890 <br> Es considerado uno de los pintores más influyentes de la historia. Su estilo fue el postimpresionismo y su obra más famosa es "la noche estrellada", que ha sido apreciada por décadas gracias a sus formas llamativas y profundos azules. A pesar de su exitosa pintura, Van Gogh solo consiguió vender uno de sus cuadros en vida y su fama empezó a crecer una vez muerto.</p>
 						</div>
 						</div>
 						<div class="col-md-3 services-grid">
-							<img src="images/artista2.jpg" class="img-responsive" alt="" />
+							<img src="/images/artista2.jpg" class="img-responsive" alt="" />
 							<div class="services-info">
 								<h4>Michelangelo Buonarroti</h4>
 								<p>1475-1564 <br> Arquitecto, pintor y ante todo escultor. Su mayor pasión y vocación fue la escultura, y se dice que era adicto a su trabajo. Miguel Ángel fue uno de los máximos exponentes del Renacimiento italiano. Desde su icónica escultura del David hasta sus impresionantes frescos en la Capilla Sixtina, el trabajo de Miguel Ángel es histórico. </p>
 							</div>
 						</div>
 						<div class="col-md-3 services-grid">
-							<img src="images/artista3.jpg" class="img-responsive" alt="" />
+							<img src="/images/artista3.jpg" class="img-responsive" alt="" />
 							<div class="services-info">
 								<h4>Frank Owen Gehry</h4>
 								<p>1929-Presente <br> Ganó el Premio Príncipe de Asturias de las Artes 2014 y con esto Genhry se convierte así en el séptimo arquitecto en recibir este reconocimiento en la categoría de las artes. Tiene una fuerte creencia en que “la arquitectura es arte”. Sus trabajos más sobresalientes son el Vitra Design Museum en Alemania, la Dancing House en Praga y el Walt Disney Concert Hall en Los Ángeles.</p>
 							</div>
 						</div>
 						<div class="col-md-3 services-grid">
-							<img src="images/artista4.jpg" class="img-responsive" alt="" />
+							<img src="/images/artista4.jpg" class="img-responsive" alt="" />
 							<div class="services-info">
 								<h4>Isadora Duncan</h4>
 								<p>1877-1927 <br> Bailarina estadounidense, es considerada por muchos como la creadora de la danza moderna. Las obras griegas fueron su mayor inspiración, las cuales influyeron en su admiración estética por la belleza del cuerpo humano y sus movimientos. Su método coreográfico se basaba en la comunicación armónica del individuo con el ritmo de la naturaleza y los cuerpos celestes.</p>

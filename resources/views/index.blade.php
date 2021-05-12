@@ -24,7 +24,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<div id="boton_flecha" class= "ocultar_flecha">
 		<a href=#arriba>
-		<img src="images/flecha_up.png"> </a>
+		<img src="/images/flecha_up.png"> </a>
 	</div>
 		<!--header-->
 			<div class="header">
@@ -41,7 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<span class="icon-bar"></span>
 									  </button>
 									<div class="navbar-brand">
-										<h1><a href="index.html">UNIVERSART</a></h1>
+										<h1><a href="/">UNIVERSART</a></h1>
 									</div>
 								</div>
 
@@ -97,28 +97,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h2>Algunas de las bellas artes</h2>
 							<div class="welcome-grids">
 								<div class="col-md-3 welcome-grid">
-									<img src="images/pintura1.jpg" alt=" " class="img-responsive" />
+									<img src="/images/pintura1.jpg" alt=" " class="img-responsive" />
 									<div class="wel-info">
 										<h4>Pintura</h4>
 										<p>La pintura es una de las expresiones más antiguas de las bellas artes. Es una manifestación artística de las artes visuales, en la que podemos encontrar numerosas técnicas o materiales. En cada pintura se representan los valores estéticos del artista, emociones, conceptos, ideas, y posibles interpretaciones del mundo en todos sus ámbitos. </p>
 									</div>
 								</div>
 								<div class="col-md-3 welcome-grid">
-									<img src="images/escultura1.jpg" alt=" " class="img-responsive" />
+									<img src="/images/escultura1.jpg" alt=" " class="img-responsive" />
 									<div class="wel-info">
 										<h4>Escultura</h4>
 										<p>Mediante la escultura es posible crear figuras tridimensionales esculpiendo sobre materiales sólidos. Es posible encontrar esculturas en madera, bronce, barro, arcilla, oro, plata, bronce e incluso materiales menos comunes como hielo y arena. Según la época podemos ver diferentes tipos: gótica, románica, griega, cinética y figurativa; desde lo más clásico a lo contemporáneo.</p>
 									</div>
 								</div>
 								<div class="col-md-3 welcome-grid">
-									<img src="images/arquitectura1.jpg" alt=" " class="img-responsive" />
+									<img src="/images/arquitectura1.jpg" alt=" " class="img-responsive" />
 									<div class="wel-info">
 										<h4>Arquitectura</h4>
 										<p>Podemos ver la arquitectura como el arte de idear, diseñar y construir estructuras para la necesidad humana. Está en constante búsqueda de la funcionalidad, la perdurabilidad y el valor estético. En la arquitectura es importante que la belleza de la construcción alcance un equilibrio y armonía con la utilidad. Por seguir la estética, es considerada una de las bellas artes.</p>
 									</div>
 								</div>
 								<div class="col-md-3 welcome-grid">
-									<img src="images/danza1.jpg" alt=" " class="img-responsive" />
+									<img src="/images/danza1.jpg" alt=" " class="img-responsive" />
 									<div class="wel-info">
 										<h4>Danza</h4>
 										<p>La danza es una manifestación artística que transmite mediante expresiones corporales y movimientos al ritmo de la música; también es de las más antiguas de la Humanidad. En muchas culturas tiene un valor simbólico, ritual y representativo. Algunos de los elementos que componen una danza son el ritmo, el movimiento, la expresión corporal, el estilo y el espacio.</p>
@@ -138,16 +138,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h3>Muestras artísticas</h3>
 							<div class="clients">
 								<ul id="flexiselDemo3">
-									<li><img src="images/pintura2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/arquitectura2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/escultura2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/danza2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/arquitectura3.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/pintura2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/arquitectura2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/escultura2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/danza2.jpg" class="img-responsive" alt=""/></li>
-									<li><img src="images/arquitectura3.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/pintura2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/arquitectura2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/escultura2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/danza2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/arquitectura3.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/pintura2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/arquitectura2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/escultura2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/danza2.jpg" class="img-responsive" alt=""/></li>
+									<li><img src="/images/arquitectura3.jpg" class="img-responsive" alt=""/></li>
 								</ul>
 									<script type="text/javascript">
 								$(window).load(function() {

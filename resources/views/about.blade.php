@@ -8,8 +8,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>UNIVERSART</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Zoo Planet Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -112,12 +112,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>Equipo</h3>
 						<div class="team-grids">
 						<div class="col-md-3 team-grid">
-							<img src="images/fotoEsteban.png" class="img-responsive" alt="" />
+							<img src="/images/fotoEsteban.png" class="img-responsive" alt="" />
 							<h4>Esteban González Gómez</h4>
 							<p>Ingeniería de Sistemas e Informática</p>
 						</div>
 						<div class="col-md-3 team-grid">
-							<img src="images/foto.png" class="img-responsive" alt="" />
+							<img src="/images/foto.png" class="img-responsive" alt="" />
 							<h4>Manuela Hernández Ríos</h4>
 							<p>Ingeniería de Sistemas e Informática</p>
 						</div>
