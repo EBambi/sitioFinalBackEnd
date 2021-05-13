@@ -19,6 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <script src="js/login.js"></script>
 <script src="js/navegacion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 </head>
 <body>
@@ -78,14 +79,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="services-grids">
 					<div>
                         <h2>Registro</h2> <br>
-                            <form id="formulario"novalidate method="POST" onsubmit="return false">
+                            <script>
+								let boton;
+								window.onload = ()=>{
+									boton = document.getElementeById("boton_registro");
+									nombre = document.getElementeById("nombre");
+									usuario = document.getElementeById("usuario");
+									password = document.getElementeById("password");
+
+									boton.addEventListener("click",()=>{
+										enviarDatos({
+											nombre:nombre.value,
+											usuario:usuario.value,
+											password:password.value
+										});
+									});
+
+									function enviarDatos(){
+										axios({
+											method: 'post',
+											url: 'api/login'
+											data: {
+												nombre: datos.nombre,
+												usuario: datos.usuario,
+												password: datos.password
+											}
+										}).then((data)=>{
+											alert("Usuario Registrado");
+											localStorage.setItem("token",data.data.token);
+										}).catch(function(error){
+											alert("Error en los datos");
+										});
+									}
+								}
+							</script>
+							<form id="formulario"novalidate method="POST" onsubmit="return false">
                                 <label> Nombre </label>
                                 <input type="text" id="nombre" name="nombre" required> <br>
                                 <label> Usuario </label>
                                 <input type="text" id="usuario" name="usuario" required> <br>
                                 <label> Contraseña </label>
                                 <input type="password" id="password" name="password" required> <br>
-                                <button type="sumbit" id="boton_registro" onclick=validacion()>Registrarse</button> 
+                                <button type="sumbit" id="boton_registro">Registrarse</button> 
                             </form>
                             <br> <br>
                             <h3>¿Ya te encuentras registrado?</h3>
