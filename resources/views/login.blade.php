@@ -82,10 +82,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <script>
 								let boton;
 								window.onload = ()=>{
-									boton = document.getElementeById("boton_registro");
-									nombre = document.getElementeById("nombre");
-									usuario = document.getElementeById("usuario");
-									password = document.getElementeById("password");
+									boton = document.getElementById("boton_registro");
+									nombre = document.getElementById("nombre");
+									usuario = document.getElementById("usuario");
+									password = document.getElementById("password");
 
 									boton.addEventListener("click",()=>{
 										enviarDatos({
@@ -95,20 +95,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										});
 									});
 
-									function enviarDatos(){
+									function enviarDatos(datos){
 										axios({
 											method: 'post',
-											url: 'api/login'
+											url: 'api/login',
 											data: {
 												nombre: datos.nombre,
 												usuario: datos.usuario,
 												password: datos.password
 											}
 										}).then((data)=>{
+											console.log(data);
 											alert("Usuario Registrado");
 											localStorage.setItem("token",data.data.token);
 										}).catch(function(error){
 											alert("Error en los datos");
+											console.log(data);
 										});
 									}
 								}

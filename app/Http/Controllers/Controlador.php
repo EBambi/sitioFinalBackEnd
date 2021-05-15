@@ -13,17 +13,17 @@ class Controlador extends Controller
 
     public function registro(Request $request){
         $request->validate([
-            'nombre'=> 'required',
+            ''=> 'required',
             'usuario'=> 'required|unique:users',
             'password'=> 'required|min:6'
-        ]);
+        ]);nombre
         $user=User::create([
             'nombre'=> $request->nombre,
-            'usuario'=> $required->usuario,
+            'usuario'=> $request->usuario,
             'password'=> Hash::make($request->password)
         ]);
         $user->save();
-        $token = $user->createToken($user->usuario.'-'.now();)
+        $token = $user->createToken($user->usuario.'-'.now());
 
         return response()->json(['user'=>$user,'token'=>$token->accessToken]);
     }
@@ -49,6 +49,10 @@ class Controlador extends Controller
                 'error'=>"unauthorized"
             ]);
         }
+    }
+
+    public function usesr(Request $request){
+        return response()->json($request->user());
     }
     /**
      * Display a listing of the resource.
