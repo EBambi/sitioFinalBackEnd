@@ -130,12 +130,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     
                     <div>
                         <h2>Login</h2> <br>
-                            <form id="formularioL"novalidate method="POST" onsubmit="return false">
+							<script>
+									let boton;
+									let name,email,password;
+									window.onload = ()=>{
+										boton = document.getElementById("boton_logueo");
+										email = document.getElementById("usuarioL");
+										password = document.getElementById("passwordL");
+
+										boton.addEventListener("click",()=>{
+											enviarDatos({
+												email:email.value,
+												password:password.value
+											});
+										});
+
+										function enviarDatos(datos){
+											axios({
+												method: 'post',
+												url: 'api/login',
+												data: {
+													email: datos.email,
+													password: datos.password
+												}
+											}).then((data)=>{
+												alert("Ingreso Exitoso");
+												location.href="/contact";
+											}).catch(function(error){
+												alert("Error en los datos");
+											});
+										}
+									}
+								</script>
+                            <form id="formularioL">
                                 <label> Usuario </label>
                                 <input type="text" id="usuarioL" name="usuario" required> <br>
                                 <label> Contraseña </label>
                                 <input type="password" id="passwordL" name="password" required> <br>
-                                <button type="sumbit" id="boton_logueo" onclick=logueo()>Ingresar</button>
+                                <button type="button" id="boton_logueo">Ingresar</button>
                             </form>
                     </div>
 						</div>

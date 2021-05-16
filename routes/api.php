@@ -20,3 +20,16 @@ Route::post('/login','Controlador@login');
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Rout::group([
+//     'prefix'=>'auth'
+// ],function(){
+//     Route::post('/registro','Controlador@registro');
+//     Route::post('/login','Controlador@login');
+
+//     Route::group([
+//         'middleware'=>'auth:api'
+//     ],function(){
+//         Route::get('user','Controlador@user');
+//     });
+// })
