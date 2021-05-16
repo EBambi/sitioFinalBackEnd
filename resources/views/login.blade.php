@@ -131,17 +131,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div>
                         <h2>Login</h2> <br>
 							<script>
-									let boton;
-									let name,email,password;
+									let botonL;
+									let emailL,passwordL;
 									window.onload = ()=>{
-										boton = document.getElementById("boton_logueo");
-										email = document.getElementById("usuarioL");
-										password = document.getElementById("passwordL");
+										botonL = document.getElementById("boton_logueo");
+										emailL = document.getElementById("usuarioL");
+										passwordL = document.getElementById("passwordL");
 
-										boton.addEventListener("click",()=>{
+										botonL.addEventListener("click",()=>{
 											enviarDatos({
-												email:email.value,
-												password:password.value
+												email:emailL.value,
+												password:passwordL.value
 											});
 										});
 
@@ -150,8 +150,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												method: 'post',
 												url: 'api/login',
 												data: {
-													email: datos.email,
-													password: datos.password
+													email: datos.emailL,
+													password: datos.passwordL
 												}
 											}).then((data)=>{
 												alert("Ingreso Exitoso");
