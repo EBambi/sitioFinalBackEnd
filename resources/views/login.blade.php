@@ -115,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									}
 								}
 							</script>
-							<form id="formulario">
+							<form id="formularioR">
                                 <label> Nombre </label>
                                 <input type="text" id="nombre" name="nombre"> <br>
                                 <label> Email </label>
