@@ -13,17 +13,17 @@ class Controlador extends Controller
 
     public function registro(Request $request){
         $request->validate([
-            ''=> 'required',
-            'usuario'=> 'required|unique:users',
+            'name'=> 'required',
+            'email'=> 'required|email|unique:users',
             'password'=> 'required|min:6'
-        ]);nombre
+        ]);
         $user=User::create([
-            'nombre'=> $request->nombre,
-            'usuario'=> $request->usuario,
+            'name'=> $request->name,
+            'email'=> $request->email,
             'password'=> Hash::make($request->password)
         ]);
         $user->save();
-        $token = $user->createToken($user->usuario.'-'.now());
+        $token = $user->createToken($user->email.'-'.now());
 
         return response()->json(['user'=>$user,'token'=>$token->accessToken]);
     }
@@ -31,14 +31,14 @@ class Controlador extends Controller
     public function login(Request $request)
     {
         $request->validate([
-        'usuario'=>'required|exists:users,usuario',
+        'email'=>'required|email|exists:users,email',
         'password'=> 'required|min:6'
         ]);
 
-        if(Auth::attempt(['usuario'=>$request->usuario,'password'=>$request->password]))
+        if(Auth::attempt(['email'=>$request->email,'password'=>$request->password]))
         {
             $user=Auth::user();
-            $token = $user->createToken($user->usuario.'-'.now());
+            $token = $user->createToken($user->email.'-'.now());
             return response()->json([
                 'token'=>$token->accessToken,
                 'user'=>$user
@@ -51,7 +51,7 @@ class Controlador extends Controller
         }
     }
 
-    public function usesr(Request $request){
+    public function user(Request $request){
         return response()->json($request->user());
     }
     /**

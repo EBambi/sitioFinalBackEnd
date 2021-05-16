@@ -81,16 +81,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <h2>Registro</h2> <br>
                             <script>
 								let boton;
+								let name,email,password;
 								window.onload = ()=>{
 									boton = document.getElementById("boton_registro");
-									nombre = document.getElementById("nombre");
-									usuario = document.getElementById("usuario");
+									name = document.getElementById("nombre");
+									email = document.getElementById("usuario");
 									password = document.getElementById("password");
 
 									boton.addEventListener("click",()=>{
 										enviarDatos({
-											nombre:nombre.value,
-											usuario:usuario.value,
+											name:name.value,
+											email:email.value,
 											password:password.value
 										});
 									});
@@ -98,31 +99,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									function enviarDatos(datos){
 										axios({
 											method: 'post',
-											url: 'api/login',
+											url: 'api/registro',
 											data: {
-												nombre: datos.nombre,
-												usuario: datos.usuario,
+												name: datos.name,
+												email: datos.email,
 												password: datos.password
 											}
 										}).then((data)=>{
 											console.log(data);
-											alert("Usuario Registrado");
+											alert("Usuario se ha registrado");
 											localStorage.setItem("token",data.data.token);
 										}).catch(function(error){
 											alert("Error en los datos");
-											console.log(data);
 										});
 									}
 								}
 							</script>
-							<form id="formulario"novalidate method="POST" onsubmit="return false">
+							<form id="formulario">
                                 <label> Nombre </label>
-                                <input type="text" id="nombre" name="nombre" required> <br>
-                                <label> Usuario </label>
-                                <input type="text" id="usuario" name="usuario" required> <br>
+                                <input type="text" id="nombre" name="nombre"> <br>
+                                <label> Email </label>
+                                <input type="email" id="usuario" name="usuario"> <br>
                                 <label> Contraseña </label>
-                                <input type="password" id="password" name="password" required> <br>
-                                <button type="sumbit" id="boton_registro">Registrarse</button> 
+                                <input type="password" id="password" name="password"> <br>
+                                <button type="button" id="boton_registro" value="Enviar">Registrarse</button> 
                             </form>
                             <br> <br>
                             <h3>¿Ya te encuentras registrado?</h3>
