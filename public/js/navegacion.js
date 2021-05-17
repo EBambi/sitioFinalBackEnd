@@ -1,7 +1,7 @@
 window.onload = init;
 var secciones = [];
-var rutas = ["index.html", "about.html", "gallery.html", "gallery2.html", "gallery3.html","contact.html","services.html", "login.html"];
-var bajo_logueo =["contact.html"];
+var rutas = ["/", "/about", "/gallery", "/gallery2", "/gallery3","/contact","/services", "/login"];
+var bajo_logueo =["/contact"];
 var permiso = true;
 
 function init(){
@@ -10,14 +10,14 @@ function init(){
 }
 
 function asignarSecciones(){
-    secciones["index.html"] = document.getElementById("index.html");
-    secciones["about.html"] = document.getElementById("about.html");
-    secciones["gallery.html"] = document.getElementById("gallery.html");
-    secciones["gallery2.html"] = document.getElementById("gallery2.html");
-    secciones["gallery3.html"] = document.getElementById("gallery3.html");
-    secciones["contact.html"] = document.getElementById("contact.html");
-    secciones["services.html"] = document.getElementById("services.html");
-    secciones["login.html"] = document.getElementById("login.html");
+    secciones["/"] = document.getElementById("/");
+    secciones["/about"] = document.getElementById("/about");
+    secciones["/gallery"] = document.getElementById("/gallery");
+    secciones["/gallery2"] = document.getElementById("/gallery2");
+    secciones["/gallery3"] = document.getElementById("/gallery3");
+    secciones["/contact"] = document.getElementById("/contact");
+    secciones["/services"] = document.getElementById("/services");
+    secciones["/login"] = document.getElementById("/login");
 }
 
 function asignarRutas(){
