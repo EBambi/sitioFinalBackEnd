@@ -79,14 +79,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="services-grids">
 					<div>
                         <h2>Registro</h2> <br>
-                            <script>
+						<script>
 								let boton;
-								let name,email,password;
+								let name,email,password, formulario;
 								window.onload = ()=>{
 									boton = document.getElementById("boton_registro");
 									name = document.getElementById("nombre");
 									email = document.getElementById("usuario");
 									password = document.getElementById("password");
+									formulario = document.getElementById("formularioR");
 
 									boton.addEventListener("click",()=>{
 										enviarDatos({
@@ -99,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									function enviarDatos(datos){
 										axios({
 											method: 'post',
-											url: 'api/registro',
+											url: 'api/auth/registro',
 											data: {
 												name: datos.name,
 												email: datos.email,
@@ -108,11 +109,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										}).then((data)=>{
 											console.log(data);
 											alert("Usuario se ha registrado");
+											formulario.reset();
 											localStorage.setItem("token",data.data.token);
 										}).catch(function(error){
 											alert("Error en los datos");
 										});
 									}
+								
+								//login
+								let botonL;
+									let emailL,passwordL;
+										botonL = document.getElementById("boton_logueo");
+										emailL = document.getElementById("usuarioL");
+										passwordL = document.getElementById("passwordL");
+
+										botonL.addEventListener("click",()=>{
+											enviarDatosL({
+												email:emailL.value,
+												password:passwordL.value
+											});
+										});
+
+										function enviarDatosL(datos){
+											axios({
+												method: 'post',
+												url: 'api/auth/login',
+												data: {
+													email: datos.email,
+													password: datos.password
+												}
+											}).then((data)=>{
+												alert("Ingreso Exitoso");
+												location.href="/contact";
+											}).catch(function(error){
+												alert("Error en los datos");
+											});
+										}
 								}
 							</script>
 							<form id="formularioR">
@@ -130,43 +162,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     
                     <div>
                         <h2>Login</h2> <br>
-							<script>
-									let botonL;
-									let emailL,passwordL;
-									window.onload = ()=>{
-										botonL = document.getElementById("boton_logueo");
-										emailL = document.getElementById("usuarioL");
-										passwordL = document.getElementById("passwordL");
-
-										botonL.addEventListener("click",()=>{
-											enviarDatos({
-												email:emailL.value,
-												password:passwordL.value
-											});
-										});
-
-										function enviarDatos(datos){
-											axios({
-												method: 'post',
-												url: 'api/login',
-												data: {
-													email: datos.emailL,
-													password: datos.passwordL
-												}
-											}).then((data)=>{
-												alert("Ingreso Exitoso");
-												location.href="/contact";
-											}).catch(function(error){
-												alert("Error en los datos");
-											});
-										}
-									}
-								</script>
                             <form id="formularioL">
-                                <label> Usuario </label>
-                                <input type="text" id="usuarioL" name="usuario" required> <br>
+                                <label> Email </label>
+                                <input type="text" id="usuarioL" name="usuario"> <br>
                                 <label> Contraseña </label>
-                                <input type="password" id="passwordL" name="password" required> <br>
+                                <input type="password" id="passwordL" name="password"> <br>
                                 <button type="button" id="boton_logueo">Ingresar</button>
                             </form>
                     </div>
