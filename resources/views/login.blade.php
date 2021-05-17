@@ -17,8 +17,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="/js/jquery-1.11.1.min.js"></script>
 <script src="/js/bootstrap.js"></script>
-<script src="/js/login.js"></script>
-<script src="/js/navegacion.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 </head>
@@ -45,19 +43,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav">
-										<li><a id="/" href="javascript:void(0)">Inicio <span class="sr-only">(current)</span></a></li>
-										<li><a id="/about" href="javascript:void(0)">Acerca de</a></li>
-										<li><a id="/services" href="javascript:void(0)">Artistas</a></li>
+										<li><a id="/" href="/">Inicio <span class="sr-only">(current)</span></a></li>
+										<li><a id="/about" href="/about">Acerca de</a></li>
+										<li><a id="/services" href="/services">Artistas</a></li>
 										<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería <span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a id="/gallery" href="javascript:void(0)">Arquitectura</a></li>
-										<li><a id="/gallery2" href="javascript:void(0)">Pintura</a></li>
-										<li><a id="/gallery3" href="javascript:void(0)">Escultura</a></li>
+										<li><a id="/gallery" href="/gallery">Arquitectura</a></li>
+										<li><a id="/gallery2" href="/gallery2">Pintura</a></li>
+										<li><a id="/gallery3" href="/gallery3">Escultura</a></li>
 									</ul>
 										</li>
-										<li class="active"><a id="/login" href="javascript:void(0)">Registro</a></li>
-										<li><a id="/contact" href="javascript:void(0)">API</a></li>
+										<li class="active"><a id="/login" href="/login">Registro</a></li>
+										<li><a id="/contact" href="/login">API</a></li>
 									</ul>
 									
 								</div><!-- /.navbar-collapse -->
