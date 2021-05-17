@@ -45,26 +45,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<span class="icon-bar"></span>
 									  </button>
 									<div class="navbar-brand">
-										<h1><a href="index.html">UNIVERSART</a></h1>
+										<h1><a href="/">UNIVERSART</a></h1>
 									</div>
 								</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a id="index.html" href="javascript:void(0)">Inicio <span class="sr-only">(current)</span></a></li>
-									<li><a id="about.html" href="javascript:void(0)">Acerca de</a></li>
-									<li><a id="services.html" href="javascript:void(0)">Artistas</a></li>
+									<li><a id="/" href="javascript:void(0)">Inicio <span class="sr-only">(current)</span></a></li>
+									<li><a id="/about" href="javascript:void(0)">Acerca de</a></li>
+									<li><a id="/services" href="javascript:void(0)">Artistas</a></li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li class="active"><a id="gallery.html" href="javascript:void(0)">Arquitectura</a></li>
-									<li><a id="gallery2.html" href="javascript:void(0)">Pintura</a></li>
-									<li><a id="gallery3.html" href="javascript:void(0)">Escultura</a></li>
+									<li class="active"><a id="/gallery" href="javascript:void(0)">Arquitectura</a></li>
+									<li><a id="/gallery2" href="javascript:void(0)">Pintura</a></li>
+									<li><a id="/gallery3" href="javascript:void(0)">Escultura</a></li>
 								</ul>
 									</li>
-									<li><a id="login.html" href="javascript:void(0)">Registro</a></li>
-									<li><a id="contact.html" href="javascript:void(0)">API</a></li>
+									<li><a id="/login" href="javascript:void(0)">Registro</a></li>
+									<li><a id="/contact" href="javascript:void(0)">API</a></li>
 								</ul>
 								
 							</div><!-- /.navbar-collapse -->
